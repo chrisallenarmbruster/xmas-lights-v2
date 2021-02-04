@@ -1,0 +1,24 @@
+{
+  "name": "xmas-lights-v2",
+  "version": "1.0.0",
+  "description": "Node Javascript application for controlling Christmas lights using a Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisallenarmbruster/xmas-lights-v2.git"
+  },
+  "keywords": [
+    "christmas",
+    "lights",
+    "iot"
+  ],
+  "author": "Chris Armbruster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisallenarmbruster/xmas-lights-v2/issues"
+  },
+  "homepage": "https://github.com/chrisallenarmbruster/xmas-lights-v2#readme"
+}

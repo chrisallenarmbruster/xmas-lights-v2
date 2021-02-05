@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/chrisallenarmbruster/xmas-lights-v2/issues"
   },
-  "homepage": "https://github.com/chrisallenarmbruster/xmas-lights-v2#readme"
+  "homepage": "https://github.com/chrisallenarmbruster/xmas-lights-v2#readme",
+  "dependencies": {
+    "onoff": "^6.0.1",
+    "process": "^0.11.10"
+  }
 }

@@ -1,3 +1,4 @@
+const process = require("process");
 const lightArray = require("./config");
 
 for (let i = 0; i < lightArray.length; i++) {

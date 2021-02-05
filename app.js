@@ -11,6 +11,8 @@ function allLightsOff() {
   }
 }
 
+while (true) {}
+
 process.on("SIGINT", () => {
   allLightsOff();
   process.exit();

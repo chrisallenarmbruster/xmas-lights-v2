@@ -17,8 +17,8 @@ process.on("SIGINT", () => {
   process.exit();
 });
 
-function async loop(){
-while (true) {}
+async function loop() {
+  while (true) {}
 }
 
 loop();

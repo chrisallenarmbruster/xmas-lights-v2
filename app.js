@@ -1,4 +1,4 @@
-//const process = require("process");
+const process = require("process");
 const lightArray = require("./config");
 
 for (let i = 0; i < lightArray.length; i++) {
@@ -20,7 +20,6 @@ function sleep(ms) {
 async function loop() {
   while (true) {
     await sleep(100);
-    console.log("looping");
   }
 }
 

@@ -11,9 +11,10 @@ function allLightsOff() {
   }
 }
 
-while (true) {}
-
 process.on("SIGINT", () => {
+  console.log("Received SIGINT");
   allLightsOff();
   process.exit();
 });
+
+while (true) {}

@@ -1,5 +1,8 @@
 const process = require("process");
 const lightArray = require("./config");
+const server = require("./server");
+
+server.listen(3000);
 
 function allLightsOff() {
   for (let i = 0; i < lightArray.length; i++) {

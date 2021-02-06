@@ -1,4 +1,4 @@
-const process = require("process");
+//const process = require("process");
 const lightArray = require("./config");
 
 for (let i = 0; i < lightArray.length; i++) {
@@ -11,14 +11,22 @@ function allLightsOff() {
   }
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function loop() {
+  while (true) {
+    await sleep(100);
+    console.log("looping");
+  }
+}
+
 process.on("SIGINT", () => {
-  console.log("Received SIGINT");
   allLightsOff();
   process.exit();
 });
-
-async function loop() {
-  while (true) {}
-}
 
 loop();

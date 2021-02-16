@@ -10,6 +10,7 @@ const light4 = new Gpio(12, "out");
 const light5 = new Gpio(16, "out");
 const light6 = new Gpio(20, "out");
 const light7 = new Gpio(21, "out");
+const lightStatus = new Gpio(26, "out");
 
 //Array of light objects.  Each of these is an addressable light circuit.
 const lightArray = [
@@ -23,4 +24,7 @@ const lightArray = [
   light7,
 ];
 
-module.exports = lightArray;
+module.exports = {
+  lightArray,
+  lightStatus,
+};

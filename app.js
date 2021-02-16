@@ -1,5 +1,5 @@
 const process = require("process");
-const lightArray = require("./config");
+const { lightArray, lightStatus } = require("./config");
 const server = require("./server");
 
 server.listen(3000);
@@ -31,9 +31,19 @@ async function flash() {
   }
 }
 
+async function flashStatus() {
+  while (true) {
+    lightStatus.writeSync(1);
+    await sleep(250);
+    lightStatus.writeSync(0);
+    await sleep(250);
+  }
+}
+
 process.on("SIGINT", () => {
   allLightsOff();
   process.exit();
 });
 
 flash();
+flashStatus();

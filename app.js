@@ -42,6 +42,7 @@ async function flashStatus() {
 
 process.on("SIGINT", () => {
   allLightsOff();
+  lightStatus.writeSync(0);
   process.exit();
 });
 

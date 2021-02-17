@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/chrisallenarmbruster/xmas-lights-v2#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "onoff": "^6.0.1",
     "process": "^0.11.10"
   }

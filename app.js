@@ -1,10 +1,10 @@
 const process = require("process");
 let gpio;
 try {
-  require("./gpioConfigDev");
+  //require("./gpioConfigDev");
   gpio = require("./gpioConfigDev");
 } catch (e) {
-  require("./gpioConfig");
+  //require("./gpioConfig");
   gpio = require("./gpioConfig");
 }
 

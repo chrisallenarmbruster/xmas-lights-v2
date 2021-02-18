@@ -1,5 +1,6 @@
 const process = require("process");
-const { lightArray, lightStatus } = require("./config");
+const { lightArray, lightStatus } =
+  require("./gpioConfigDev") || require("./gpioConfig");
 const server = require("./server");
 
 server.listen(3000);

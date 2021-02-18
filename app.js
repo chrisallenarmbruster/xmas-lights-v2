@@ -1,18 +1,24 @@
 const process = require("process");
 let gpio;
 try {
-  //require("./gpioConfigDev");
-  gpio = require("./gpioConfigDev");
+  gpio = require("./gpioConfigDev"); //gpio module fallback for Dev when not running on Pi
 } catch (e) {
-  //require("./gpioConfig");
-  gpio = require("./gpioConfig");
+  gpio = require("./gpioConfig"); //gpio module for Prod when running on Pi
 }
-
 const { lightArray, lightStatus } = gpio;
-
 const server = require("./server");
+const { loadConfigFromStorage, saveConfigToStorage } = require("./config.js");
 
-server.listen(3000);
+let configuration = loadConfigFromStorage();
+console.log(configuration);
+
+server.listen(configuration.port, (err) => {
+  console.log(
+    err
+      ? "CAN'T start web services!!!"
+      : `Server listening on Port ${configuration.port}`
+  );
+});
 
 function allLightsOff() {
   for (let i = 0; i < lightArray.length; i++) {

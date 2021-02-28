@@ -8,4 +8,8 @@ server.get("/", (req, res) => {
   res.send("Xmas-Lights up and running.  API listening.  Merry Christmas!");
 });
 
+server.get("*", (req, res) => {
+  res.redirect("/");
+});
+
 module.exports = server;

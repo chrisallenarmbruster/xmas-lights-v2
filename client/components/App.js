@@ -14,8 +14,8 @@ import Settings from "./Settings";
 
 const app = () => {
   return (
-    <Router>
-      <div className="container">
+    <div className="container">
+      <Router>
         <NavBar />
         <Switch>
           <Redirect exact from="/" to="/home" />
@@ -23,8 +23,8 @@ const app = () => {
           <Route exact path="/status" component={Status} />
           <Route exact path="/settings" component={Settings} />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 };
 

@@ -9,7 +9,7 @@ import {
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-dark navbar-expand-md bg-primary">
+    <nav className="navbar navbar-dark navbar-expand-md bg-success">
       <div className="container-fluid">
         <span className="navbar-brand">
           <b>LightRunner</b>
@@ -26,31 +26,29 @@ const NavBar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <NavLink className="nav-link" activeClassName="active" to="/home">
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                className="nav-link"
-                activeClassName="active"
-                to="/status"
-              >
-                Status
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                className="nav-link"
-                activeClassName="active"
-                to="/settings"
-              >
-                Settings
-              </NavLink>
-            </li>
-          </ul>
+          <div className="navbar-nav">
+            <NavLink
+              className="nav-link nav-item"
+              activeClassName="active"
+              to="/home"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              className="nav-link nav-item"
+              activeClassName="active"
+              to="/status"
+            >
+              Status
+            </NavLink>
+            <NavLink
+              className="nav-link nav-item"
+              activeClassName="active"
+              to="/settings"
+            >
+              Settings
+            </NavLink>
+          </div>
         </div>
       </div>
     </nav>

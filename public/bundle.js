@@ -2013,7 +2013,7 @@ var Home = function Home() {
     className: "display-4 text-center"
   }, "Tis the Season of Light!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "lead text-center"
-  }, "Stars of heaven, clear and bright, shine upon this festive night."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", {
+  }, "Stars of heaven, warm and bright, shine upon us all tonight."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", {
     className: "my-4"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "text-center"
@@ -2052,7 +2052,7 @@ var Home = function Home() {
     viewBox: "0 0 16 16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
     d: "M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"
-  })), "Collaborate")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "LightRunner is software designed for the Raspberry Pi (RPi) family of single board computers. It controls the RPi's general purpose input/output pins, also known as GPIO, to create signals for up to eight circuits of holiday lights. Each switched GPIO must be wired to a solid state relay in order to switch light circuits on and off."));
+  })), "Collaborate")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "LightRunner is software designed for the Raspberry Pi (RPi) family of single board computers. It controls the RPi's general purpose input/output pins, also known as GPIO, to create signals for up to eight circuits of holiday lights. Each switched GPIO must be wired to a solid state or electromechanical relay in order to switch light circuits on and off."));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);

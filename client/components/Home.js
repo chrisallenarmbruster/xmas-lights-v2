@@ -13,7 +13,7 @@ const Home = () => {
       <div style={jumbotron}>
         <h1 className="display-4 text-center">Tis the Season of Light!</h1>
         <p className="lead text-center">
-          Stars of heaven, clear and bright, shine upon this festive night.
+          Stars of heaven, warm and bright, shine upon us all tonight.
         </p>
 
         <hr className="my-4" />
@@ -69,7 +69,8 @@ const Home = () => {
         single board computers. It controls the RPi's general purpose
         input/output pins, also known as GPIO, to create signals for up to eight
         circuits of holiday lights. Each switched GPIO must be wired to a solid
-        state relay in order to switch light circuits on and off.
+        state or electromechanical relay in order to switch light circuits on
+        and off.
       </p>
     </>
   );

@@ -10,7 +10,10 @@ import {
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Status from "./Status";
-import Settings from "./Settings";
+import Control from "./Control";
+import Configure from "./Configure";
+import Create from "./Create";
+import Collaborate from "./Collaborate";
 
 const app = () => {
   return (
@@ -21,7 +24,10 @@ const app = () => {
           <Redirect exact from="/" to="/home" />
           <Route exact path="/home" component={Home} />
           <Route exact path="/status" component={Status} />
-          <Route exact path="/settings" component={Settings} />
+          <Route exact path="/control" component={Control} />
+          <Route exact path="/configure" component={Configure} />
+          <Route exact path="/create" component={Create} />
+          <Route exact path="/collaborate" component={Collaborate} />
         </Switch>
       </Router>
     </div>

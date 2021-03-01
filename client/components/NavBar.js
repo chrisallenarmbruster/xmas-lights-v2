@@ -54,32 +54,34 @@ const NavBar = () => {
                 Tools
               </div>
               <div
-                className="dropdown-menu"
+                className="dropdown-menu "
+                role="menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <Link
-                  className="dropdown-item"
+                  className="list-group-item list-group-item-action list-group-item-light border-0 text-dark"
+                  role="menuitem"
                   activeClassName="dropdown-item"
                   to="/control"
                 >
                   Control
                 </Link>
                 <Link
-                  className="dropdown-item"
+                  className="list-group-item list-group-item-action list-group-item-light border-0 text-dark"
                   activeClassName="dropdown-item"
                   to="/configure"
                 >
                   Configure
                 </Link>
                 <Link
-                  className="dropdown-item"
+                  className="list-group-item list-group-item-action list-group-item-light border-0 text-dark"
                   activeClassName="dropdown-item"
                   to="/create"
                 >
                   Create
                 </Link>
                 <Link
-                  className="dropdown-item"
+                  className="list-group-item list-group-item-action list-group-item-light border-0 text-dark"
                   activeClassName="dropdown-item"
                   to="/collaborate"
                 >

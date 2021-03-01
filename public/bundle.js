@@ -2123,28 +2123,28 @@ var Home = function Home() {
     className: "lead text-center"
   }, "Stars of heaven, warm and bright, shine upon us all tonight."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", {
     className: "my-4"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text-center container-fluid"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-center container-fluid "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/control",
-    className: "text-success"
+    className: "link-success text-decoration-none"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
     "class": "bi bi-play-circle me-1"
   }), "Control"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/configure",
-    className: "text-success"
+    className: "link-success text-decoration-none"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
-    "class": "bi bi-sliders me-1 ms-3"
+    className: "bi bi-sliders me-1 ms-3"
   }), "Configure"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/create",
-    className: "text-success"
+    className: "link-success text-decoration-none"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
-    "class": "bi bi-hammer me-1 ms-3"
+    className: "bi bi-hammer me-1 ms-3"
   }), "Create"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/collaborate",
-    className: "text-success"
+    className: "link-success text-decoration-none"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
-    "class": "bi bi-share me-1 ms-3"
+    className: "bi bi-share me-1 ms-3"
   }), "Collaborate"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "LightRunner is software designed for the Raspberry Pi (RPi) family of single board computers. It controls the RPi's general purpose input/output pins, also known as GPIO, to create signals for up to eight circuits of holiday lights. Each switched GPIO must be wired to a solid state or electromechanical relay in order to switch light circuits on and off."));
 };
 
@@ -2208,22 +2208,24 @@ var NavBar = function NavBar() {
     "data-bs-toggle": "dropdown",
     "aria-expanded": "false"
   }, "Tools"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "dropdown-menu",
+    className: "dropdown-menu ",
+    role: "menu",
     "aria-labelledby": "navbarDropdownMenuLink"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    className: "dropdown-item",
+    className: "list-group-item list-group-item-action list-group-item-light border-0 text-dark",
+    role: "menuitem",
     activeClassName: "dropdown-item",
     to: "/control"
   }, "Control"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    className: "dropdown-item",
+    className: "list-group-item list-group-item-action list-group-item-light border-0 text-dark",
     activeClassName: "dropdown-item",
     to: "/configure"
   }, "Configure"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    className: "dropdown-item",
+    className: "list-group-item list-group-item-action list-group-item-light border-0 text-dark",
     activeClassName: "dropdown-item",
     to: "/create"
   }, "Create"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    className: "dropdown-item",
+    className: "list-group-item list-group-item-action list-group-item-light border-0 text-dark",
     activeClassName: "dropdown-item",
     to: "/collaborate"
   }, "Collaborate")))))));

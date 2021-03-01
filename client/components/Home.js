@@ -37,11 +37,6 @@ const Home = () => {
             <i className="bi bi-hammer me-1 ms-3"></i>
             Create
           </Link>
-
-          <Link to="/collaborate" className="link-success text-decoration-none">
-            <i className="bi bi-share me-1 ms-3"></i>
-            Collaborate
-          </Link>
         </div>
       </div>
       <p>

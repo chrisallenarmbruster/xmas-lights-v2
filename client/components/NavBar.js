@@ -80,13 +80,6 @@ const NavBar = () => {
                 >
                   Create
                 </Link>
-                <Link
-                  className="list-group-item list-group-item-action list-group-item-light border-0 text-dark"
-                  activeClassName="dropdown-item"
-                  to="/collaborate"
-                >
-                  Collaborate
-                </Link>
               </div>
             </div>
           </div>

@@ -2140,12 +2140,7 @@ var Home = function Home() {
     className: "link-success text-decoration-none"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
     className: "bi bi-hammer me-1 ms-3"
-  }), "Create"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/collaborate",
-    className: "link-success text-decoration-none"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
-    className: "bi bi-share me-1 ms-3"
-  }), "Collaborate"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "LightRunner is software designed for the Raspberry Pi (RPi) family of single board computers. It controls the RPi's general purpose input/output pins, also known as GPIO, to create signals for up to eight circuits of holiday lights. Each switched GPIO must be wired to a solid state or electromechanical relay in order to switch light circuits on and off."));
+  }), "Create"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "LightRunner is software designed for the Raspberry Pi (RPi) family of single board computers. It controls the RPi's general purpose input/output pins, also known as GPIO, to create signals for up to eight circuits of holiday lights. Each switched GPIO must be wired to a solid state or electromechanical relay in order to switch light circuits on and off."));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
@@ -2224,11 +2219,7 @@ var NavBar = function NavBar() {
     className: "list-group-item list-group-item-action list-group-item-light border-0 text-dark",
     activeClassName: "dropdown-item",
     to: "/create"
-  }, "Create"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    className: "list-group-item list-group-item-action list-group-item-light border-0 text-dark",
-    activeClassName: "dropdown-item",
-    to: "/collaborate"
-  }, "Collaborate")))))));
+  }, "Create")))))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavBar);
